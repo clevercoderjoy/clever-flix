@@ -1,6 +1,4 @@
 function App() {
-  console.log("🚀 ~ file: App.jsx:3 ~ App ~ App:", App);
-
 
   return (
     <>

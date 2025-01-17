@@ -36,7 +36,7 @@
   "lint-staged": {
     "*.{js,ts,tsx}": [
       "npm run lint",
-      "commitlint --edit $1"
+      "npx commitlint --edit $1"
     ]
   }
 }
