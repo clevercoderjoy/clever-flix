@@ -27,6 +27,7 @@ export default [
       'react-refresh': reactRefresh,
     },
     rules: {
+      "no-console": "warn",
       ...js.configs.recommended.rules,
       ...react.configs.recommended.rules,
       ...react.configs['jsx-runtime'].rules,
@@ -36,7 +37,6 @@ export default [
         'warn',
         { allowConstantExport: true },
       ],
-      "no-console": "warn",
     },
   },
 ]
