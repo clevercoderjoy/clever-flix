@@ -1,8 +1,12 @@
+import Footer from "./components/Footer"
+import Header from "./components/Header"
+
 function App() {
 
   return (
     <>
-      <h1 className="font-bold text-red-500">Building Clever-Flix</h1>
+      <Header />
+      <Footer />
     </>
   )
 }
