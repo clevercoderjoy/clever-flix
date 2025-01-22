@@ -4,9 +4,38 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Netflix Sans';
+  src: local('Netflix Sans Regular'), url('./fonts/NetflixSans-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Netflix Sans';
+  src: local('Netflix Sans Medium'), url('./fonts/NetflixSans-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Netflix Sans';
+  src: local('Netflix Sans Light'), url('./fonts/NetflixSans-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Netflix Sans';
+  src: local('Netflix Sans Bold'), url('./fonts/NetflixSans-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Netflix Sans", sans-serif;
 }
